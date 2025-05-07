@@ -1,7 +1,7 @@
 import { CssBaseline } from '@mui/material'
 import { Routes, Route } from 'react-router-dom'
 import { AuthProvider } from './contexts/AuthContext'
-import { ProtectedRoute } from './components/auth/ProtectedRoute'
+import ProtectedRoute from './components/auth/ProtectedRoute'
 import HomePage from './pages/HomePage'
 import LoginPage from './pages/auth/LoginPage'
 import RegisterPage from './pages/auth/RegisterPage'
